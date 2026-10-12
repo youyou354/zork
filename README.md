@@ -11,8 +11,6 @@ The exercise was to extend it. My additions here: **`ObjetZork`** (an object wit
 weight and whether it can be carried) and rooms that hold objects (`Piece`), the first step towards picking
 objects up and carrying them.
 
-```sh
-javac *.java && java Zorkfr
-```
-
-The other classes are the skeleton given with the subject (their `@author` tags say so).
+The other classes are the skeleton given with the subject (their `@author` tags say so). `Zorkfr.java`
+still holds a few unfinished lines from an experiment with lists (`new List<Piece>()`), so it does not
+compile as it is: remove the three lines after `leJeu.jouer();` to play.
